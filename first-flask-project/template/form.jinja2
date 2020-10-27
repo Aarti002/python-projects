@@ -1,0 +1,22 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+
+    <form method="POST">
+        <h2>This is a tutorial form</h2>
+        <label for="title">Title:</label>
+
+        <div>
+            <input type="text" name="title">
+        </div>
+        <br>
+        <label for="text">Content:</label>
+        <div>
+            Text: <textarea type="textarea" row="10" col="20" name="text"></textarea>
+        </div>
+        <br>
+        <button >Submit</button>
+        </form>
+
+{% endblock %}
+
